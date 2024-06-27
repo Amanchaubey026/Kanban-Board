@@ -136,7 +136,7 @@ const validate = (userData) => {
     throw new Error("All fields are required.");
   }
 };
-
+//
 userRouter.post("/signup", async (req, res) => {
   validate(req.body);
   const { username, email, password, role } = req.body;
