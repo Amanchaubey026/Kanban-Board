@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
@@ -30,8 +30,7 @@ const Signup = () => {
       });
       if (response.ok) {
         console.log('Signup successful');
-        navigate('/login')
-
+        navigate('/login');
       } else {
         console.error('Signup failed');
       }
@@ -117,3 +116,4 @@ const Signup = () => {
 };
 
 export default Signup;
+

@@ -2,7 +2,7 @@ import AllRoutes from "./routes/AllRoutes";
 
 const App = () => {
   return (
-    <div style={{fontFamily:"Poppins"}}>
+    <div style={{ fontFamily: "Poppins" }}>
       <AllRoutes />
     </div>
   );
